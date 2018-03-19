@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/editAlumno"
+        android:title="Editar Alumno"></item>
+
+    <item android:id="@+id/AgregarActividad"
+        android:title="Agregar Actividad"></item>
+
+    <item android:id="@+id/regresar"
+        android:title="Regresar"></item>
+
+</menu>

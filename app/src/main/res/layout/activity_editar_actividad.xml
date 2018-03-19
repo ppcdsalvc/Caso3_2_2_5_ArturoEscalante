@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe1e1"
+    tools:context="tdm2018.ittepic.edu.tdm2018_u2_225_prjtofprogrm.EditarActividad">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Eitar Actividad"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/edtActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Actividad"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/edtFechaI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Inicio"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtActividad"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/edtFechaF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtFechaI"
+        android:layout_marginTop="10dp"
+        android:hint="Fecha Fin"
+         />
+
+
+    <EditText
+        android:id="@+id/edtCredito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtFechaF"
+        android:hint="Creditos"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/edtCredito">
+    <Button
+        android:id="@+id/btActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+       />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+         />
+</LinearLayout>
+
+</RelativeLayout>

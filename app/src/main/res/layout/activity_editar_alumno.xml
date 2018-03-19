@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcdcdc"
+    tools:context="tdm2018.ittepic.edu.tdm2018_u2_225_prjtofprogrm.EditarAlumno">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="EDITAR ALUMNO"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/etalumno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/etcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numero de Control"
+        android:inputType="number"
+        android:layout_below="@+id/etalumno"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/ettelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etcontrol"
+        android:layout_marginTop="10dp"
+        android:hint="Telefono"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/edtcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ettelefono"
+        android:layout_marginTop="10dp"
+        android:hint="Correo"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/carrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtcorreo"
+        android:layout_marginTop="10dp"
+        android:hint="Carrera"
+        android:inputType="textPersonName" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/carrera">
+    <Button
+        android:id="@+id/btActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        />
+
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+       />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+         />
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>
